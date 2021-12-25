@@ -202,7 +202,7 @@ void CMenuNew::Init() {
 
     ScanGalleryPictures(true);
 
-    nOpenCloseWaitTime = CTimer::m_snTimeInMillisecondsPauseMode + 2000;
+    nOpenCloseWaitTime = CTimer::m_snTimeInMillisecondsPauseMode + 3500;
 
     bInitialised = true;
 }
